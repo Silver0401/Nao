@@ -1,0 +1,28 @@
+#get information
+topic: ~example_topic()
+language: spe
+
+u: ([“¿Qué eres?” “¿Qué es eso?” “¿Es un robot?”]) Soy un robot Humanoide ayudante de Doctores
+
+u:(pancho [presentate “no olvides tus modales” saluda])  hola. soy pancho 
+
+u:(“Que es” Breinviu) Breinviu es un equipo multidisciplinario de alto impacto, que busca resolver la falta de mediciones estandarizadas en el área psicomotriz pediátrica.  si quieres saber qué problema intentamos resolver.     puedes preguntármelo 
+
+u:(cual es el problema) Existe una falta de herramientas precisas para medir el del progreso de pacientes en el área de psicomotricidad pediátrica.  Buscamos proponer nuevas prácticas de medición mucho más precisas para los médicos especialistas que incluya el apoyo de la tecnología. Puedo explicarte como funciona. pregunta
+
+u:(Como funciona) Con visión computacional se observan y procesan los movimientos de los pacientes. Estos datos se analizan con inteligencia artificial y entregan un resultado numérico. Asi los médicos pueden observar de manera precisa el progreso de su paciente en nuestra plataforma. Quieres saber cual es mi papel. pregunta 
+
+u:(cual es tu misión) Soy buen amigo de los niños humanos. Yo les enseño que movimientos realizar. ellos me imitan y entonces podemos analizar su psicomotricidad
+
+u:(Como es la plataforma) El equipo de interfaz ha creado una plataforma marvillosa para pacientes y doctores 
+
+u:(  “cual es la”   misión [“del proyecto” “de Breinviu”]) desarrollar una plataforma que integre varias tecnologías con el fin de mejorar el desempeño de la psicomotricidad de pacientes pediátricos. puedes preguntar sobre nuestras áreas.
+
+u:(cuales son sus áreas) 
+El área de mecánica programa a los robots que interactúan con los niños. El área de visión procesa la información de los pacientes por medio de imágenes. El área de interfaz desarrolla una plataforma para doctores y pacientes. El área médica desarrolla investigación y enfoca el proyecto al área clínica
+
+u:([cuéntame di] un chiste) como le dices a un mago después de comer.  Pues. Magordito
+
+u:(descansa  pancho) Ya era hora ^pCall(ALMotion.rest())
+
+u:([e:FrontTactilTouched e:MiddleTactilTouched e:RearTactilTouched]) Tocaste mi cabeza.
